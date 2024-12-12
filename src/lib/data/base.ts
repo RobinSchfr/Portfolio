@@ -1,6 +1,6 @@
 const firstName = 'Robin';
 const lastName = 'Schäfer';
-const suffix = 'Robin Schäfer | Portfolio';
+const suffix = `${firstName} ${lastName} ${new Date().getFullYear()}`;
 
 const BaseData = {
 	firstName,
